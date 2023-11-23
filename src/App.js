@@ -2,6 +2,7 @@ import React from "react";
 import { MapContainer, Marker, TileLayer, Popup } from "react-leaflet";
 import { Icon, divIcon, point } from "leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
+import 'leaflet/dist/leaflet.css';
 
 const App = () => {
   // markers
